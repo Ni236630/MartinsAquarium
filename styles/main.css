@@ -1,0 +1,124 @@
+
+body{
+  margin: 0px;
+  background-color: wheat;
+}
+/* 
+
+Style for Header & logo
+
+*/
+header{
+  display: flex;
+  background-color: rgb(100, 102, 128);
+  position: sticky;
+  top:0;
+}
+
+h1{
+  color: rgb(105, 231, 225);
+}
+
+.logo{
+  height: 8em;
+}
+/* 
+
+start css for containers
+
+*/
+.content{
+  display:flex;
+  margin: 10px;
+}
+
+
+.container--right{
+  flex:1;
+  border: 1px solid black;
+}
+
+.container--left{
+  flex:3;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+div article {
+  margin-bottom: 10px;
+}
+
+/* 
+
+Style for fish
+
+*/
+
+.fish{
+  border: 1px solid black;
+}
+
+.tunaSteak{
+  height: 175px;
+}
+
+/* 
+
+Style for Quotes
+
+*/
+
+.quotes{
+  border: 1px solid black;
+  display: flex;
+  flex-basis: auto;
+}
+
+.quote{
+  margin-right: 10px;
+}
+
+.quote__author{
+  font-size: smaller;
+  text-align: right;
+}
+
+/*
+
+Style For Locations
+
+*/
+.locations{
+  border: 1px solid black;
+}
+
+.location{
+  margin-bottom: 10px;
+}
+
+.location__image{
+  height: 150px;
+}
+/* 
+
+Style for Tips on right
+
+*/
+
+.tankTips__tip{
+  border: 1px solid black; 
+  margin-bottom: 25px;
+}
+
+/* 
+
+Styles for links
+
+*/
+
+
+a {
+  color: black;
+  font-size: larger;
+}
