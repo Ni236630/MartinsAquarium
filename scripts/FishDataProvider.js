@@ -7,13 +7,15 @@ const fishCollection = [
         length: "",
         location: "",
 
-    }, {
+    },
+    {
         name: "Pinky",
         food: "Small Fish",
         species: "Sockeye Salmon",
         length: "44",
         location: "Anchorage, AK",
-    }, {
+    },
+    {
         name: "My Boy Blue",
         food: "Fish",
         species: "Bluefin Tuna",
