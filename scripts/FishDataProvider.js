@@ -1,7 +1,7 @@
 const fishCollection = [
 
     {
-        image: "salmon.jpg",
+        image: "rockfish.jpg",
         name: "Bart",
         species: "Rock Fish",
         length: 10,
@@ -25,6 +25,14 @@ const fishCollection = [
         length: 108,
         location: "Gloucester, MA",
         food: "Fish"
+    },
+    {
+        image: "redSnapper.jpg",
+        name: "prof. Snape",
+        species: "Red Snapper",
+        length: 14,
+        location: "Pensacola, FL",
+        food: "crustaceans"
     }
 ]
 
