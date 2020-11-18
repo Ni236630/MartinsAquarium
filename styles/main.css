@@ -54,13 +54,20 @@ div article {
 Style for fish
 
 */
+.fishList{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+}
 
 .fish{
   border: 1px solid black;
+  flex-basis: auto;
 }
 
-.tunaSteak{
-  height: 175px;
+.fish__image {
+  width: 150px;
 }
 
 /* 
